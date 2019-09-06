@@ -1,0 +1,65 @@
+{
+    "activityId": "9a558a04-ca2b-11e9-a32f-2a2ae2dbcce4",
+    "activityCode": "ACT0001",
+    "activityName": "Sample Activity",
+    "scheme": {
+        "schemeId": "dce0d05cc95b11e9a32f2a2ae2dbcce4",
+        "schemeCode": "SCH1001",
+        "schemeName": "Klic Center Registration Process"
+    },
+    "process": {
+        "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+        "processName": "Start",
+        "processCode": "PRC001"
+    },
+    "startDate": 1567062711,
+    "endDate": 1567062622,
+    "actors": [{
+            "loginId": "youruserid"
+            // fields may be added as per requirement
+        },
+        {
+            "loginId": "youruserid1"
+            // fields may be added as per requirement
+        }
+    ],
+    "roles": [{
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcc567",
+            "name": "user"
+        },
+        {
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcce4",
+            "name": "admin"
+        }
+    ],
+    "previousActivity": {
+        "activityId": "9a558a04-ca2b-11e9-a32f-2a2ae2dbcce4",
+        "activityCode": "ACT0001",
+        "activityName": "Sample Activity 0"
+        // fields may be added as per requirement
+    },
+    "acceptActivity": {
+        "activityId": "9a558a04-ca2b-11e9-a32f-2a2ae2dbcce4",
+        "activityCode": "ACT0001",
+        "activityName": "Sample Activity 0"
+        // fields may be added as per requirement
+    },
+    "rejectActivity": {
+        "activityId": "9a558a04-ca2b-11e9-a32f-2a2ae2dbcce4",
+        "activityCode": "ACT0001",
+        "activityName": "Sample Activity 3"
+        // fields may be added as per requirement
+    },
+    "state": {
+        "stateId": "3a27313ac96011e9a32f2a2ae2dbcce4",
+        "stateName": "State Name"
+    },
+    "executionTime": "",
+    "activityInvokedBy": {
+        "loginId": "youruserid"
+        // fields may be added as per requirement
+    },
+    "executor": {},
+    "isAsyncActivity": true,
+    "sequenceNo": 1
+}

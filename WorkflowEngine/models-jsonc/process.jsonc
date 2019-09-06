@@ -1,0 +1,63 @@
+{
+    "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+    "processName": "Start",
+    "processCode": "PRC001",
+    "scheme": {
+        "schemeId": "dce0d05cc95b11e9a32f2a2ae2dbcce4",
+        "schemeCode": "SCH1001",
+        "schemeName": "Klic Center Registration Process"
+    },
+    "startDate": 1566975160,
+    "endDate": 1566975560,
+    "state": {
+        "stateId": "3a27313ac96011e9a32f2a2ae2dbcce4",
+        "stateName": "New"
+    },
+    "actors": [{
+            "loginId": "youruserid"
+            // fields may be added as per requirement
+        },
+        {
+            "loginId": "youruserid1"
+            // fields may be added as per requirement
+        }
+    ],
+    // We may need to define roles that controles the flow of Scheme
+    "roles": [{
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcc567",
+            "name": "user"
+        },
+        {
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcce4",
+            "name": "admin"
+        }
+    ],
+    "previousProcess": {
+        "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+        "processName": "Registration",
+        "processCode": "PRC001"
+        // fields may be added as per requirement
+    },
+    "nextProcess": {
+        "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+        "processName": "Verification",
+        "processCode": "PRC003"
+        // fields may be added as per requirement
+    },
+    "rootProcess": {
+        "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+        "processName": "Start",
+        "processCode": "PRC001"
+        // fields may be added as per requirement
+    },
+    "rootActivity": {
+        "activityId": "9a558a04-ca2b-11e9-a32f-2a2ae2dbcce4",
+        "activityCode": "ACT0001",
+        "activityName": "Sample Activity"
+    },
+    "isAsyncProcess": true,
+    "processInvokedByActivityId": "",
+    "metaData": {
+
+    }
+}

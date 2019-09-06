@@ -1,0 +1,49 @@
+{
+    // This should be rplaced with _id in implementation
+    "schemeId": "dce0d05cc95b11e9a32f2a2ae2dbcce4",
+    "schemeCode": "SCH1001",
+    "schemeName": "Klic Center Registration Process",
+    "schemeStartDate": 1566973297,
+    "schemeEndDate": 1566973999,
+    // We may need to define specific users/actors that controles the flow of Scheme
+    "actors": [{
+            "loginId": "youruserid"
+        },
+        {
+            "loginId": "youruserid"
+        }
+    ],
+    // We may need to define roles that controles the flow of Scheme
+    "roles": [{
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcc567",
+            "name": "user"
+        },
+        {
+            "roleId": "d7bfaa4cca2511e9a32f2a2ae2dbcce4",
+            "name": "admin"
+            // fields may be added as per requirement
+        }
+    ],
+    "processes": [{},
+        {
+            "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+            "processName": "Start",
+            "processCode": "PRC001"
+            // fields may be added as per requirement
+        },
+        {
+            "processId": "3a2732d4c96011e9a32f2a2ae2dbcce4",
+            "processName": "Registration",
+            "processCode": "PRC002"
+            // fields may be added as per requirement
+        },
+    ],
+    "sequenceNo": 1,
+    "state": {
+        "stateId": "3a27313ac96011e9a32f2a2ae2dbcce4",
+        "stateName": "New"
+    },
+    "metaData": {
+
+    }
+}

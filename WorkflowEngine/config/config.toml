@@ -1,0 +1,8 @@
+appport = "3032"
+logdir = "logs/"
+mongourl = "10.2.10.160"
+mongoport = "27017"
+mongodbname = "WorkflowDB"
+mongousername = ""
+mongopass = ""
+hostname = "WorkflowDB"
